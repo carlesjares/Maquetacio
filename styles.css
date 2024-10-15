@@ -1,0 +1,131 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+/* Header Styles */
+.flex-container1 {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    background-color: #333;
+   
+}
+
+.logo, .nav, .social {
+    padding: 10px;
+    margin-right: 20px;
+    
+    background-color: #ff6b6b;
+    text-align: left;
+    flex: 1;
+
+}
+
+.nav {
+    flex: 2;
+
+}
+
+/* Banner Styles */
+
+.banner {
+    margin-top: 20px;
+    
+    border: 30px solid rgba(255, 166, 0, 0.839); 
+
+    background-color: #ffd93d;
+    text-align: left;
+    font-size: 24px;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+/* Main Content Area */
+.flex-container2 {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    flex: 3;
+    padding: 20px;
+    background-color: #636161;
+    margin-right: 20px;
+}
+
+.article {
+    background-color: #41729f;
+    padding: 20px;
+    text-align: left;
+    color: black;
+}
+
+.navegacion {
+    background-color: #5ab9ea;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    grid-column: span 2;
+}
+
+/* Advertisement Area */
+.publicidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #ff6b6b;
+    flex: 1;
+}
+
+.publicidad div {
+    background-color: #ffd93d;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;    
+}
+
+/* Footer */
+.flex-container3 {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+
+.footer { 
+    background-color: #f4e04d;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+}
